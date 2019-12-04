@@ -1,0 +1,187 @@
+.main-container{
+    background-color: #191414;
+}
+.user-info{
+    display:flex;
+    flex-direction:row;
+    padding-top:90px;
+    color:white;
+}
+
+.user-displayName{
+    font-size:36px;
+    font-weight: 600;
+}
+
+.user-email{
+    font-size: 24px;
+    font-weight:600;
+}
+
+.user-name-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+
+.user-image{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    margin-left:45px;
+    margin-top: 45px;
+    margin-right:20px;
+
+}
+
+.tables-container{
+    display:flex;
+    flex-direction:row;
+    margin:15px;
+}
+
+.song-thumbnail{
+    height:100px;
+    width:100px;
+    margin-left:45px;
+    margin-top: 45px;
+    margin-right:20px;
+}
+
+.table-head{
+    font-size:28px;
+    font-weight:500;
+    color:white;
+
+}
+
+#songTable.table-striped>tbody>tr:nth-of-type(odd){
+    font-weight:500;
+    font-size:20px;
+    background-color:#1DB954;
+    color:white;
+
+ }
+
+ #artistTable.table-striped>tbody>tr:nth-of-type(odd){
+    font-weight:500;
+    font-size:20px;
+    background-color:#1DB954;
+    color:white;
+
+ }
+
+ #songTable.table-striped>tbody>tr:nth-of-type(even){
+    font-weight:500;
+    font-size:20px;
+    color:white;
+
+ }
+
+ #artistTable.table-striped>tbody>tr:nth-of-type(even){
+    font-weight:500;
+    font-size:20px;
+    color:white;
+
+ }
+
+ .song-name{
+     font-size:24px;
+     font-weight:500;
+     margin-top: 20px;
+ }
+
+ .user-container{
+     display:flex;
+     flex-direction: row;
+ }
+ .recently-played{
+    margin-top:45px;
+    justify-self: center;
+    align-self:center;
+    margin-left:360px;
+ }
+
+ .empty-info-text{
+     padding-top:100px;
+     font-size:34px;
+     font-weight: 400;
+     align-self:center;
+     justify-self: center;
+ }
+
+ .match-container{
+    justify-content: center;
+    align-content: center;
+    margin-top:25vh;
+ }
+
+ .match-button{
+     background-color:#1DB954;
+     color:white;
+     margin-left:300px;
+     padding:10px;
+     border-style:solid;
+     border-width:1px;
+     border-radius:10px;
+     font-size:30px;
+ }
+
+ .match-button:hover{
+     color:black;
+     text-decoration: none;
+     background-color:rgb(22, 163, 71);
+ }
+
+ .logo{
+     height:30px;
+     width:30px;
+     border-radius:50%;
+     margin-right:10px;
+     margin-left:10px;
+ }
+
+ .social-media{
+     display:flex;
+     flex-direction: row;
+ }
+
+ .user-music-info-container{
+     margin-top:35px;
+
+ }
+
+ .user-music-card{
+     margin-bottom:20px;
+ }
+
+ .user-card-title{
+     font-size:24px;
+     background-color:#f3f3f3;
+     padding:10px;
+     font-weight:bold;
+     margin-bottom:0px;
+ }
+
+ .card-text-odd{
+     border-bottom-style:solid;
+     border-bottom-width: 2px;
+     border-bottom-color:black;
+     padding-top:15px;
+     margin-bottom:0px;
+     background-color:lightgreen;
+     padding-bottom:15px;
+    font-size:18px;
+ }
+
+ .card-text-even{
+    font-size:18px;
+    border-bottom-style:solid;
+    border-bottom-width: 2px;
+    border-bottom-color:black;
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom:0px;
+}
